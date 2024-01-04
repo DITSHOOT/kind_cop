@@ -15,15 +15,15 @@ app.listen(PORT, () => {
 
 let status = [
   {
-    name: 'Patrick Sébastien',
+    name: 'Sanji do brazil | Ce soir en ville',
     type: Discord.ActivityType.Listening,
   },
   {
-    name: 'Netflix | Chill',
+    name: 'Lucifer',
     type: Discord.ActivityType.Watching,
   },
   {
-    name: 'KCX 3 | GOAT ULTIME',
+    name: "GRIMPER L'EVEREST !",
     type: Discord.ActivityType.Competing,
   },
 
