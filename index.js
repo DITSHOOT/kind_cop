@@ -15,20 +15,20 @@ app.listen(PORT, () => {
 
 let status = [
   {
-    name: 'Sanji do brazil | Ce soir en ville',
+    name: 'Sanji do Brazil | Ce soir en ville',
     type: Discord.ActivityType.Listening,
   },
   {
-    name: 'Lucifer',
-    type: Discord.ActivityType.Watching,
+    name: 'Koh-Lanta RP (Mercredi 21h)',
+    url: "https://www.twitch.tv/heavenfox",
+    type: Discord.ActivityType.Streaming,
   },
   {
     name: "GRIMPER L'EVEREST !",
     type: Discord.ActivityType.Competing,
   },
-
-  
 ]
+
 
 
 bot.on('ready', () => {
