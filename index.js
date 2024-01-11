@@ -14,19 +14,19 @@ app.listen(PORT, () => {
 
 
 let status = [
+ // {
+  //  name: 'Sanji do Brazil | Ce soir en ville',
+  //  type: Discord.ActivityType.Listening,
+ // },
   {
-    name: 'Sanji do Brazil | Ce soir en ville',
-    type: Discord.ActivityType.Listening,
-  },
-  {
-    name: 'Koh-Lanta RP (Mercredi 21h)',
+    name: 'Koh-Lanta RP',
     url: "https://www.twitch.tv/heavenfox",
     type: Discord.ActivityType.Streaming,
   },
-  {
-    name: "GRIMPER L'EVEREST !",
-    type: Discord.ActivityType.Competing,
-  },
+ // {
+  //  name: "GRIMPER L'EVEREST !",
+   // type: Discord.ActivityType.Competing,
+ // },
 ]
 
 
