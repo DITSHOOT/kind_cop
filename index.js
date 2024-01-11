@@ -14,10 +14,11 @@ app.listen(PORT, () => {
 
 
 const status = {
-  name: '[ SURVIVOR RP ] CAMELIA EN DANGER ?',
-  url: 'https://www.twitch.tv/heavenfox',
-  type: 'STREAMING',
+    name: '[ SURVIVOR RP ] CAMELIA EN DANGER ?' url: "https://www.twitch.tv/heavenfox",
+    type: Discord.ActivityType.Streaming,
 };
+
+
 
 bot.on('ready', () => {
   const channel = bot.channels.cache.get('1163902591768477776');
