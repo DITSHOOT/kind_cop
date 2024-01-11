@@ -13,38 +13,21 @@ app.listen(PORT, () => {
 });
 
 
-let status = [
- // {
-  //  name: 'Sanji do Brazil | Ce soir en ville',
-  //  type: Discord.ActivityType.Listening,
- // },
-  {
-    name: 'Koh-Lanta RP',
-    url: "https://www.twitch.tv/heavenfox",
-    type: Discord.ActivityType.Streaming,
-  },
- // {
-  //  name: "GRIMPER L'EVEREST !",
-   // type: Discord.ActivityType.Competing,
- // },
-]
-
-
+const status = {
+  name: '[ SURVIVOR RP ] CAMELIA EN DANGER ?',
+  url: 'https://www.twitch.tv/heavenfox',
+  type: 'STREAMING',
+};
 
 bot.on('ready', () => {
   const channel = bot.channels.cache.get('1163902591768477776');
   if (!channel) return console.error('Le salon spécifié est introuvable.');
   channel.send('Le bot est maintenant connecté ! <@510818650307952640>');
-    console.log(`Connecté en tant que ${bot.user.tag}`);
+  console.log(`Connecté en tant que ${bot.user.tag}`);
 
-
-
-  setInterval(() =>{
-    let random = Math.floor(Math.random() * status.length);
-    bot.user.setActivity(status[random]);
-  },3600000);
+  // Set the streaming status for the bot
+  bot.user.setActivity(status);
 });
-
 
 
 
