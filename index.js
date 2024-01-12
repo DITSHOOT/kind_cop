@@ -14,9 +14,11 @@ app.listen(PORT, () => {
 
 
 const status = {
-    name: '[ SURVIVOR RP ] CAMELIA EN DANGER ?' url: "https://www.twitch.tv/heavenfox",
+    name: 'SURVIVOR RP: Jack SPARDOUGH - M/J/V à 21h !',
+    url: "https://www.twitch.tv/mastersnakou",
     type: Discord.ActivityType.Streaming,
 };
+
 
 
 
@@ -25,8 +27,6 @@ bot.on('ready', () => {
   if (!channel) return console.error('Le salon spécifié est introuvable.');
   channel.send('Le bot est maintenant connecté ! <@510818650307952640>');
   console.log(`Connecté en tant que ${bot.user.tag}`);
-
-  // Set the streaming status for the bot
   bot.user.setActivity(status);
 });
 
