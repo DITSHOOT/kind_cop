@@ -14,8 +14,8 @@ app.listen(PORT, () => {
 
 
 const status = {
-    name: 'SURVIVOR RP: Jack SPARDOUGH - M/J/V à 21h !',
-    url: "https://www.twitch.tv/mastersnakou",
+    name: 'DU BON VIEUX JDG | Tar l'époque :)',
+    url: "https://www.twitch.tv/joueur_du_grenier",
     type: Discord.ActivityType.Streaming,
 };
 
