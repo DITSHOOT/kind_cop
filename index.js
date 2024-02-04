@@ -14,7 +14,7 @@ app.listen(PORT, () => {
 
 
 const status = {
-    name: 'DU BON VIEUX JDG | Tar l'époque ahaha',
+    name: "DU BON VIEUX JDG | Tar l'époque ahaha",
     url: "https://www.twitch.tv/joueur_du_grenier",
     type: Discord.ActivityType.Streaming,
 };
