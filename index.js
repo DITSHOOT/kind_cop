@@ -85,7 +85,7 @@ bot.on('messageCreate', async (message) => {
       
       **Compte rendu FlopSecurity :**
       ➾ Ce [TP](https://github.com/fabrice1618/flopsecurity) se focalise sur la compréhension des failles de sécurité telles que les injections SQL et XSS, ainsi que sur la sécurisation des applications web. Vous devez être concis et utiliser un langage technique. Vous devez expliquer les étapes pour installer et configurer le serveur LAMP, ainsi que la différence entre la configuration d'un serveur de développement et un serveur de production. Ensuite, pour les injections SQL et XSS, vous devez expliquer leur nature, les risques qu'elles représentent et proposer au moins une solution technique. Enfin, vous devez aborder les mesures de sécurité à mettre en place pour protéger l'application, faire un résumé des enseignements tirés de ce TP, souligner l'importance de la sécurité dans le développement et l'administration des applications web, et enfin présenter vos perspectives futures pour renforcer la sécurité de l'application. \nUne fois tout ça fait, vous pourrez envoyer à l'adresse suivante que vous avez bien apporté des modifications sur votre git : __fabrice1618@gmail.com__.
-      Avec l'autorisation de mon maître, je vous envoi son projet fini afin de vous inspirer.\n **Disponible sur GitHub :** [Projet SLAM](https://github.com/DITSHOOT/report-flopsecurityl)
+      Avec l'autorisation de mon maître, je vous envoi son projet fini afin de vous inspirer.\n **Disponible sur GitHub :** [Projet SLAM](https://github.com/DITSHOOT/report-flopsecurity)
 
 
       ➾ ⚠️ Dernier délai : __19 Février__. ⚠️
