@@ -125,7 +125,10 @@ bot.on('messageCreate', async (message) => {
       })
 
     // Ensuite, vous pouvez envoyer cet embed dans un canal spécifique :
-    await message.channel.send({ embeds: [reminderEmbed] });
+    const sentMessage = await message.channel.send({ embeds: [reminderEmbed] });
+
+    await sentMessage.react('👍');
+    
     message.channel.send('@everyone');
   }
 });
