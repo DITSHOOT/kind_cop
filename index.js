@@ -2,8 +2,8 @@ const Discord  = require("discord.js")
 const bot = new Discord.Client({intents: 3276799})
 const config = require('./config')
 const express = require('express');
-const fs = require('fs');
-const archiver = require('archiver');
+// const fs = require('fs');
+// const archiver = require('archiver');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
